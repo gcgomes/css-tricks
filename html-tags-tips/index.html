@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Tags Tips</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>HTML Tags Tips</h1>
+    <select name="tips" id="tips">
+        <option value="">Select HTML tag tip</option>
+        <option value=".details">Details</option>
+        <option value=".del">Del</option>
+        <option value=".code">Code</option>
+        <option value=".context-menu">Code</option>
+    </select>
+    <div class="tip details">
+        <details>
+            <summary>Click Here</summary>
+            <p>Content is shown here</p>
+        </details>
+    </div>
+    <div class="tip del">
+        <p><del>Excluded text</del></p>
+    </div>
+    <div class="tip code">
+        <p>The <code>code</code> tag transforms the element font into monospace</p>
+    </div>
+    <div class="tip context-menu">
+        <p oncontextmenu="return false">Deactivates right click</p>
+    </div>
+</div>
+</body>
+<script src="../_assets/vendor/js/jquery3.6.js"></script>
+<script>
+    $(document).ready(() => {
+       $('#tips').change(() => {
+           $('.tip').each((_, elem) => $(elem).hide());
+           $($('#tips').val()).show();
+       })
+    });
+</script>
+</html>
