@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Modern Properties</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>CSS Modern Properties</h1>
+    <select name="tips" id="tips">
+        <option value="">Select CSS property</option>
+        <option value=".aspect-ratio">Aspect Ratio</option>
+        <option value=".conic-gradient">Conic Gradient</option>
+        <option value=".accent-color">Accent Color</option>
+        <option value=".out-of-range">Out of Range</option>
+    </select>
+    <div class="tip aspect-ratio"></div>
+    <div class="tip conic-gradient"></div>
+    <div class="tip accent-color">
+        <label for="accent_color">
+            <input type="checkbox" id="accent_color">
+            CLICK ME
+        </label>
+    </div>
+    <div class="tip out-of-range">
+        <input type="number" min="1" max="5">
+    </div>
+</div>
+</body>
+<script src="../_assets/vendor/js/jquery3.6.js"></script>
+<script>
+    $(document).ready(() => {
+       $('#tips').change(() => {
+           $('.tip').each((_, elem) => $(elem).hide());
+           $($('#tips').val()).show();
+       })
+    });
+</script>
+</html>
