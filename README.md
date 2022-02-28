@@ -7,3 +7,7 @@ Input with label that moves to the top when focused and submit button with anima
 ## HTML Tags Tips
 
 A select which toggles the visibility of tags you can use in your projects
+
+## CSS modern properties
+
+A select which toggles the visibility of css properties you can use in your projects
