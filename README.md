@@ -11,3 +11,7 @@ A select that toggles the visibility of tags you can use in your projects
 ## CSS modern properties
 
 A select that toggles the visibility of css properties you can use in your projects
+
+## Animated hover effect
+
+A custom animation appears when user hovers the image
