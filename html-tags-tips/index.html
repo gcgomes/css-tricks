@@ -8,18 +8,21 @@
 <body>
 <div class="container">
     <h1>HTML Tags Tips</h1>
-    <select name="tips" id="tips">
-        <option value="">Select HTML tag tip</option>
-        <option value=".details">Details</option>
-        <option value=".del">Del</option>
-        <option value=".code">Code</option>
-        <option value=".context-menu">Context menu</option>
-        <option value=".multiple">Multiple</option>
-        <option value=".translate-no">Don't translate</option>
-        <option value=".download">Download</option>
-        <option value=".spell-check">Spell check</option>
-        <option value=".access-key">Access key</option>
-    </select>
+    <label for="tips">Select HTML tag tip</label>
+    <input list="html_tips" name="tips" id="tips">
+    <datalist id="html_tips">
+        <option value="details">
+        <option value="del">
+        <option value="code">
+        <option value="context-menu">
+        <option value="multiple">
+        <option value="translate-no">
+        <option value="download">
+        <option value="spell-check">
+        <option value="access-key">
+        <option value="small">
+        <option value="phone">
+    </datalist>
     <div class="tip details">
         <details>
             <summary>Click Here</summary>
@@ -27,7 +30,9 @@
         </details>
     </div>
     <div class="tip del">
-        <p><del>Excluded text</del></p>
+        <p>
+            <del>Excluded text</del>
+        </p>
     </div>
     <div class="tip code">
         <p>The <code>code</code> tag transforms the element font into monospace</p>
@@ -45,20 +50,36 @@
         <a href="../_assets/images/clone-trooper.jpg" download="clone-trooper.jpg">Download here</a>
     </div>
     <div class="tip spell-check">
-        <p contenteditable="true" spellcheck="true"> My englysh is greyt</p>
+        <p contenteditable="true" spellcheck="true">My englysh is greyt</p>
     </div>
     <div class="tip access-key">
         <a href=".https://github.com/gcgomes" accesskey="G">Gabriel Gomes</a>
+    </div>
+    <div class="tip color_picker">
+        <label for="color_picker"></label>
+        <input type="color" name="color_picker" id="color_picker">
+    </div>
+    <div class="tip small">
+        <h2>This is a h2 text</h2>
+        <p>This is a p text</p>
+        <p><small>This is a small text</small></p>
+    </div>
+    <div class="tip phone">
+        <a href="tel:555-555-555">555-555-555</a>
     </div>
 </div>
 </body>
 <script src="../_assets/vendor/js/jquery3.6.js"></script>
 <script>
     $(document).ready(() => {
-       $('#tips').change(() => {
-           $('.tip').each((_, elem) => $(elem).hide());
-           $($('#tips').val()).show();
-       })
+        const $v_Tips = $('#tips');
+
+        $v_Tips.change(() => {
+            $('.tip').each((_, elem) => $(elem).hide());
+            $('.' + $('#tips').val()).show();
+        });
+
+        $v_Tips.hover(() => $v_Tips.val(''));
     });
 </script>
 </html>
