@@ -15,3 +15,7 @@ A select that toggles the visibility of css properties you can use in your proje
 ## Animated hover effect
 
 A custom animation appears when user hovers the image
+
+## Image by screen size
+
+The image changes depending on which screen size the user are in
