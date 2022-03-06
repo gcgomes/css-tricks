@@ -19,3 +19,7 @@ A custom animation appears when user hovers the image
 ## Image by screen size
 
 The image changes depending on which screen size the user are in
+
+## Background Color Overlap
+
+This view provides an excellent way to insert a translucent shadow to an image background
