@@ -68,3 +68,10 @@ select {
 .out-of-range input:out-of-range {
     border: 2px solid red;
 }
+
+.text-gradient h2 {
+    background: -webkit-linear-gradient(#ff0043, #ea2c9e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+}
