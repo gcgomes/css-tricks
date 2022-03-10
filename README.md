@@ -27,3 +27,7 @@ This view provides an excellent way to insert a translucent shadow to an image b
 ## Task list
 
 An editable list which users can add tasks on it
+
+## Animated share button
+
+A custom animated button with an awesome hover effect
