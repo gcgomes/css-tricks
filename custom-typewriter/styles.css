@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(#000, #434343);
+    padding: 1em 0 0 4em;
+    height: 100vh;
+}
+
+.typewriter {
+    width: fit-content;
+}
+
+.typewriter h1 {
+    color: white;
+    overflow: hidden;
+    width: max-content;
+    padding-right: 4px;
+    white-space: nowrap;
+    border-right: .15em solid #ff0043;
+    animation:
+            typing 2.5s steps(30, end),
+            blink-caret .8s infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #ff0043}
+}
