@@ -35,3 +35,7 @@ A custom animated button with an awesome hover effect
 ## Custom typewriter
 
 A funny effect for a typewriter
+
+## Reset CSS
+
+Eric Meyer's reset css style and a simpler way to do something like it
