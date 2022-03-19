@@ -39,3 +39,7 @@ A funny effect for a typewriter
 ## Reset CSS
 
 Eric Meyer's reset css style and a simpler way to do something like it
+
+## Float Animation
+
+A simple animation of a moving image
