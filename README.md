@@ -47,3 +47,7 @@ A simple animation of a moving image
 ## Parallax Effect
 
 Parallax is a trend where the background is moved at a different speed than the foreground content
+
+## Glass Morphism
+
+Glass Morphism is a background-blur placed on the top of objects which allows the background to shine through – giving it the impression of frosted glass
