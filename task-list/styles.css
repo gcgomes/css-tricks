@@ -24,7 +24,7 @@ body {
     padding: 50px;
     border-radius: 25px;
 
-    /*  glassmorphism  */
+    /*  glass-morphism  */
     background: rgba( 0, 0, 0, 0.2 );
     box-shadow: 0 8px 32px 0 rgba( 255, 0, 67, 0.37 );
     backdrop-filter: blur( 4px );
