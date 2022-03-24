@@ -51,3 +51,7 @@ Parallax is a trend where the background is moved at a different speed than the 
 ## Glass Morphism
 
 Glass Morphism is a background-blur placed on the top of objects which allows the background to shine through – giving it the impression of frosted glass
+
+## Hamburger Menu
+
+The hamburger menu is a button placed in a top corner of a graphical user interface. Its function is to toggle a menu displayed on the screen.
