@@ -54,4 +54,8 @@ Glass Morphism is a background-blur placed on the top of objects which allows th
 
 ## Hamburger Menu
 
-The hamburger menu is a button placed in a top corner of a graphical user interface. Its function is to toggle a menu displayed on the screen.
+The hamburger menu is a button placed in a top corner of a graphical user interface. Its function is to toggle a menu displayed on the screen
+
+## Simple wave effect
+
+An awesome effect of waves shown at the bottom of screen
