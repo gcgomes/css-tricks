@@ -59,3 +59,7 @@ The hamburger menu is a button placed in a top corner of a graphical user interf
 ## Simple wave effect
 
 An awesome effect of waves shown at the bottom of screen
+
+## Light and Dark Theme
+
+The colors of your site changes based on the theme you chose for your browser
