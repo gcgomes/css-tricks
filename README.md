@@ -63,3 +63,7 @@ An awesome effect of waves shown at the bottom of screen
 ## Light and Dark Theme
 
 The colors of your site changes based on the theme you chose for your browser
+
+## Image Shadow
+
+Applies a colorful shadow to an image with transparent background
