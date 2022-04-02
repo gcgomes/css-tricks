@@ -67,3 +67,7 @@ The colors of your site changes based on the theme you chose for your browser
 ## Image Shadow
 
 Applies a colorful shadow to an image with transparent background
+
+## Pulse effect
+
+An animation of a pulse being emitted by a button, so it looks like a phone is ringing
